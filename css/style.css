@@ -1,0 +1,250 @@
+.header-info{
+  box-sizing: 0;
+  background-color: rgba(226, 190, 136, 0.911);
+  letter-spacing: .02em;
+  padding-top: .1rem;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 160;
+  width: 768px;
+  height:20px;
+  color:black; 
+  font-size: small;
+  min-width: 100%;
+}
+
+.bar ul {
+  display: flex;
+  list-style-type: none;
+}
+.bar li{
+  float: right;
+  display: flex;
+  text-align: justify;
+  
+}
+.bar ul li {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.bar ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  font-size: 15px;
+}
+
+.navbar {
+  width: auto;
+  height: 70px;
+  margin-right:19px;
+}
+.containerone{
+  background: black;
+  background-position: auto;
+  height:120px;
+  padding-top:1px;
+  }
+.logo {
+  padding-left:10px;
+  float: left;
+}
+.logo2
+{
+  padding-left:10px;
+  float: left;
+  color: white ;
+  font-size: 10px;
+ padding-top: 25px;
+ padding-bottom: 40px;
+ font-style: italic;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Backgound & header sections: bh1 section*/
+.bh1{
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0.5) 50%
+  ),
+  url("images/19.jpg");
+  height: 600px;
+  padding-top:1px;
+}
+
+.bh1-2{
+  background-color: rgba(226, 190, 136, 0.5);
+  margin-top:200px;
+}
+h2{
+  font-size: 60px;
+  margin-top:80px;
+  margin-left: 250px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.discover{
+  margin-left: 300px;
+  width: 700px;
+  padding-left:200px;
+  margin-bottom:60px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  justify-content: center; /* Center-align grid items horizontally */
+  align-items: center; /* Center-align grid items vertically */
+  margin-right:auto;
+  margin-left:auto;
+}
+.image-grid-item{
+  text-align: center; /* Center-align content within each grid item */
+
+  border-style: solid;
+  border-width: 6px;
+  margin:1px;
+  margin-left:auto;
+}
+
+.image-grid-item1 {
+  text-align: center; /* Center-align content within each grid item */
+  margin-left:0px;
+  border-style: solid;
+border-width: 6px;
+  margin:1px;
+  margin-right:auto;
+  margin-left:auto;
+
+}
+.image-grid-item2 {
+  text-align: center; /* Center-align content within each grid item */
+  border-style: solid;
+  border-width: 6px;
+  margin:1px;
+  padding-left:auto;
+  margin-right:auto;
+}
+.image-grid-item3 {
+  max-width: 100%; /* Ensure images don't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  margin:1px;
+  object-fit: cover;
+  border-style: solid;
+border-width: 6px;
+margin-right:auto;
+}
+.body{
+  color: rgba(2, 2, 2, 0.836);
+  background-color: rgba(226, 190, 136, 0.911);
+  position:relative ;
+  margin-top:0px;
+  min-width: 100%;
+  height: 60;
+
+}
+.h4{
+  font-size: 25px;
+  padding-top:10px;
+  margin-left:10px;
+}
+.h5{
+  font-size: 20px;
+  margin-left:10px;
+  padding-bottom: 30px;
+
+}
+.h9{
+  font-size: 20px;
+  margin: top 1px;
+  margin-left: 0px;
+  color: black;
+  margin-bottom: 10px;
+
+}
+.h6{
+  font-size: 20px;
+  margin: top 1px;
+  margin-left: 10px;
+  color: black;
+  margin-bottom: 10px;
+}
+.h7{
+  font-size: 20px;
+  margin: top 1px;
+  margin-left: 10px;
+  color: black;
+  margin-bottom: 10px;
+}
+.h8{
+  font-size: 20px;
+  margin: top 1px;
+  margin-left: 10px;
+  color: black;
+  margin-bottom: 10px;
+}
+.container{
+  background: black;
+  color:white;
+  font: 15px;
+  padding-bottom: 50px;;
+
+}
+.container img{
+  padding-left: 550px;
+  padding-right: 20%;
+  padding-top:10px;
+
+}
+
+.Followus{
+  margin-left: 10px;
+  text-align: end;
+}
+  
+ul{
+  list-style-type: none;
+}
+/* Additional CSS styles for social media icons */
+#social-icons-container {
+  margin-top: 20px;
+  text-align: center;
+  background-color:  rgba(240, 182, 124, 0.925);
+  
+}
+.row{
+  padding-left: 500px;
+  padding-top:1px;
+}
+#social-icons-container a {
+  margin-right: 12px;
+  margin-left:12px;
+  color: #0e0801; /* Icon color */
+  font-size: 24px;
+  text-decoration: none;
+
+  
+}
+/* Products page content*/
+
+

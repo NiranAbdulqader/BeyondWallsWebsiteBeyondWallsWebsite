@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.pc1{
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0) 50%
+  ),
+  url(images/20.jpg);
+  height: 500px;
+  padding-top:1px;
+  text-align: left;
+}
+
+.header-info{
+  box-sizing: 0;
+  background-color: rgba(226, 190, 136, 0.911);
+  letter-spacing: .02em;
+  padding-top: .1rem;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 160;
+  width: 768px;
+  height:20px;
+  color:black; 
+  font-size: small;
+  min-width: 100%;
+}
+
+.bar li{
+  float: right;
+  display: flex;
+  text-align: justify;
+  
+}
+.bar ul li {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.bar ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  font-size: 15px;
+}
+
+.navbar {
+  width: auto;
+  height: 70px;
+  margin-right:19px;
+}
+.containerone{
+  background: black;
+  background-position: auto;
+  height:120px;
+  padding-top:1px;
+  }
+.logo {
+  padding-left:10px;
+  float: left;
+}
+.logo2
+{
+  padding-left:10px;
+  float: left;
+  color: white ;
+  font-size: 10px;
+ padding-top: 25px;
+ padding-bottom: 40px;
+ font-style: italic;
+}
+
+
+
+.bar ul {
+  display: flex;
+  list-style: none;
+}
+
+.bar li {
+  margin-left: 20px;
+}
+
+/* New Collection Section */
+.pc1 {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Products Section */
+.new {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.product {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product h2 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.product .price {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 8px;
+}
+
+.add-cart {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-cart:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .new {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .new {
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
