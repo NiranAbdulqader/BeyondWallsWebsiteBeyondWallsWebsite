@@ -6,7 +6,7 @@
     ),
     url(images/20.jpg);
     height: 500px;
-    padding-top:1px;
+    padding-top:auto;
     text-align: left;
   }
 .col-1{
@@ -64,7 +64,7 @@
     box-sizing: 0;
     background-color: rgba(226, 190, 136, 0.911);
     letter-spacing: .02em;
-    padding-top: .1rem;
+    padding-top: 0rem;
     position: relative;
     text-align: center;
     text-transform: uppercase;
@@ -74,6 +74,7 @@
     color:black; 
     font-size: small;
     min-width: 100%;
+
   }
   .bar ul {
     display: flex;

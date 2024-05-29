@@ -1,3 +1,83 @@
+.header-info{
+  box-sizing: 0;
+  background-color: rgba(226, 190, 136, 0.911);
+  letter-spacing: .02em;
+  padding-top: .1rem;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 160;
+  width: 768px;
+  height:20px;
+  color:black; 
+  font-size: small;
+  min-width: 100%;
+}
+
+.bar ul {
+  display: flex;
+  list-style-type: none;
+}
+.bar li{
+  float: right;
+  display: flex;
+  text-align: justify;
+  
+}
+.bar ul li {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.bar ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  font-size: 15px;
+}
+
+.navbar {
+  width: auto;
+  height: 70px;
+  margin-right:19px;
+}
+.containerone{
+  background: black;
+  background-position: auto;
+  height:120px;
+  padding-top:1px;
+  }
+.logo {
+  padding-left:10px;
+  float: left;
+}
+.logo2
+{
+  padding-left:10px;
+  float: left;
+  color: white ;
+  font-size: 10px;
+ padding-top: 25px;
+ padding-bottom: 40px;
+ font-style: italic;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
 body {
   font-family: Arial, sans-serif;
   background-color: #f8f8f8;
@@ -8,13 +88,29 @@ body {
 .pc1{
   background: linear-gradient(
     to top,
-    rgba(0, 0, 0, 0) 50%,
+    rgba(0,0, 0, 0) 50%,
     rgba(0, 0, 0, 0) 50%
   ),
-  url(images/20.jpg);
-  height: 500px;
+  url("images/20.jpg");
+  height: 700px;
   padding-top:1px;
-  text-align: left;
+  widows: 200px;
+}
+
+.pc11{
+  background-color: rgba(226, 190, 136, 0.5);
+  margin-top:400px;
+ 
+
+ 
+}
+.pc1 h3{
+  font-size: 40px;
+  margin-top:100px;
+  margin-left: 18px;
+  color: rgb(8, 5, 1);
+  margin-bottom: 20px;
+  
 }
 
 .header-info{
@@ -77,9 +173,6 @@ body {
  padding-bottom: 40px;
  font-style: italic;
 }
-
-
-
 .bar ul {
   display: flex;
   list-style: none;
@@ -90,11 +183,11 @@ body {
 }
 
 /* New Collection Section */
-.pc1 {
+.pc11 {
   text-align: center;
-  padding: 40px 0;
-  background-color: #fff;
-  margin-bottom: 20px;
+  padding: px 0;
+  background-color: rgba(226, 190, 136, 0.911);
+  margin-bottom: 0px;
 }
 
 /* Products Section */
@@ -109,7 +202,7 @@ body {
 .product {
   text-align: center;
   padding: 20px;
-  background-color: #fff;
+  background-color: rgba(226, 190, 136, 0.911);
 }
 
 .product img {
@@ -154,4 +247,61 @@ body {
   .new {
       grid-template-columns: repeat(1, 1fr);
   }
+}
+body 
+{background-color: rgba(242, 230, 217, 0.911);
+}
+..container1{
+    text-align: center;
+    margin-top:0px; 
+    background-color: aquamarine;
+}
+.back{
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url("css/images/Screenshot 2024-04-22 030024.png");
+    height: 300px;
+    width: 1200px;
+    padding-bottom:20px;
+  }
+.canvas {
+    border: 2px solid #e41010;
+    margin-top: 70px;
+}
+.container{
+  background: black;
+  color:white;
+  font: 15px;
+  padding-bottom: 50px;;
+
+}
+.container img{
+  padding-left: 550px;
+  padding-right: 20%;
+  padding-top:10px;
+
+}
+
+.Followus{
+  margin-left: 100px;
+  text-align: end;
+  padding-left: 570px;
+}
+  
+ul{
+  list-style-type: none;
+}
+/* Additional CSS styles for social media icons */
+#social-icons-container {
+  margin-top: 20px;
+  text-align: center;
+  background-color:  rgba(240, 182, 124, 0.925);
+  
+}
+.row{
+  text-align: end;
+  padding-left: 550px;
 }
